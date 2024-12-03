@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--===============Title============ -->
+    <title>Loya Queen's - European luxury brand</title>
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="images/logo_loya.jpg" />
+    <!-- lInk import-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- =====fontawesome-for-icons==== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <!-- top-bar -->
+      <div class="header-top-bar">
+        <span>Welecom to Loyal Queen's Store</span>
+      </div>
+      <!-- navigation -->
+      <nav class="navigation">
+        <a href="index.html" class="logo">
+          <img src="images/logo_loya.jpg" alt="logo" />
+        </a>
+
+        <!-- menu-btn------------- -->
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label for="menu-btn" class="menu-icon">
+          <span class="nav-icon"></span>
+        </label>
+        <!-- =====Menu=== -->
+        <ul class="menu">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#category">Category</a></li>
+          <li><a href="cart.html">Products</a></li>
+          <li><a href="#clients">Testimonials</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+        <!-- ====Right-nav==== -->
+        <div class="right-nav">
+         
+
+          <a href="#" class="nav-user">
+            <i class="fa-regular fa-user"></i>
+          </a>
+
+          <a href="checkout.html" class="nav-cart" id="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#" class="nav-logout" id="logout">
+            <i class="fa-solid fa-sign-out-alt"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- =======MainBanner -->
+    <section id="main-banner">
+      <div class="main-banner-box">
+        <!-- img -->
+        <img src="images/banner_1.webp" alt="" />
+        <!-- Text -->
+        <div class="main-banner-text">
+          <h1>Family Jewelry Collection</h1>
+          <p>Design Jewelry, Necklaces, Bracelets, Earings</p>
+          <a href="#new-product">Shop Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- ====service-info======= -->
+    <section class="what-we-provide">
+      <!-- box -->
+      <div class="w-info-box">
+        <!-- icon -->
+        <div class="w-info-icon">
+          <i class="fa-solid fa-plane"></i>
+        </div>
+        <!-- text -->
+        <div class="w-info-text">
+          <strong>Free Shipping</strong>
+          <p>Lorem ipsum dolor sit .</p>
+        </div>
+      </div>
+      <div class="w-info-box">
+        <!-- icon -->
+        <div class="w-info-icon">
+          <i class="fa-solid fa-comment"></i>
+        </div>
+        <!-- text -->
+        <div class="w-info-text">
+          <strong>Support 24/7</strong>
+          <p>Lorem ipsum dolor sit .</p>
+        </div>
+      </div>
+      <div class="w-info-box">
+        <!-- icon -->
+        <div class="w-info-icon">
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+        <!-- text -->
+        <div class="w-info-text">
+          <strong>100% Payment Secure</strong>
+          <p>Lorem ipsum dolor sit .</p>
+        </div>
+      </div>
+    </section>
+    <!--   PRODUCT GRID=============================== -->
+    <section class="product-grid-half">
+      <!--                    box           -->
+      <div class="product-grid-box product-grid-box2">
+        <img src="images/box1.webp" alt="product" />
+        <!--          text          -->
+        <div class="product-grid-text">
+          <span>Beatiful</span>
+          <strong>Wedding Ring</strong>
+          <a href="#new-product">Shop Now</a>
+        </div>
+      </div>
+      <div class="product-grid-box product-grid-box1">
+        <img src="images/box2.webp" alt="product" />
+        <!--          text          -->
+        <div class="product-grid-text">
+          <span>Beatiful</span>
+          <strong>Wedding Ring</strong>
+          <a href="#new-product">Shop Now</a>
+        </div>
+      </div>
+      <div class="product-grid-box product-grid-box3">
+        <img src="images/box3.webp" alt="product" />
+        <!--          text          -->
+        <div class="product-grid-text">
+          <span>Beatiful</span>
+          <strong>Wedding Ring</strong>
+          <a href="#new-product">Shop Now</a>
+        </div>
+      </div>
+    </section>
+    <!--           NEWS PRODUCT -->
+    <section id="new-product">
+      <!-- heading -->
+      <div class="new-product-heading">
+        <h2>Our Products</h2>
+        <p>Add our product to weekly lineup</p>
+      </div>
+      <div class="new-product-container">
+        <!-- Swiper -->
+        <div class="swiper mySwiperMyproduct">
+          <div class="swiper-wrapper">
+            <!-- slide1 -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="new-product-box">
+                <!-- img -->
+                <a href="cart.html" class="new-product-img">
+                  <img src="images/product-1.webp" alt="" />
+                  <span>New</span>
+                  <button class="new-product-cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>Buy Now
+                  </button>
+                </a>
+                <!-- text -->
+                <div class="new-product-text">
+                  <a href="#" class="new-product-title">Ring For Women</a>
+                  <span>$25.00</span>
+                </div>
+              </div>
+              <!-- box-end -->
+            </div>
+
+            <!-- slide2 -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="new-product-box">
+                <!-- img -->
+                <a href="cart.html" class="new-product-img">
+                  <img src="images/product-4.webp" alt="" />
+                  <span>New</span>
+                  <button class="new-product-cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>Buy Now
+                  </button>
+                </a>
+                <!-- text -->
+                <div class="new-product-text">
+                  <a href="#" class="new-product-title">Ring For Women</a>
+                  <span>$25.00</span>
+                </div>
+              </div>
+              <!-- box-end -->
+            </div>
+            <!-- slide end -->
+            <!-- slide3 -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="new-product-box">
+                <!-- img -->
+                <a href="cart.html" class="new-product-img">
+                  <img src="images/product-3.webp" alt="" />
+                  <span>New</span>
+                  <button class="new-product-cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>Buy Now
+                  </button>
+                </a>
+                <!-- text -->
+                <div class="new-product-text">
+                  <a href="#" class="new-product-title">Ring For Women</a>
+                  <span>$25.00</span>
+                </div>
+              </div>
+              <!-- box-end -->
+            </div>
+            <!-- slide end -->
+            <!-- slide4 -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="new-product-box">
+                <!-- img -->
+                <a href="cart.html" class="new-product-img">
+                  <img src="images/product-2.webp" alt="" />
+                  <span>New</span>
+                  <button class="new-product-cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>Buy Now
+                  </button>
+                </a>
+                <!-- text -->
+                <div class="new-product-text">
+                  <a href="#" class="new-product-title">Ring For Women</a>
+                  <span>$25.00</span>
+                </div>
+              </div>
+              <!-- box-end -->
+            </div>
+            <!-- slide end -->
+            <!-- slide5 -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="new-product-box">
+                <!-- img -->
+                <a href="cart.html" class="new-product-img">
+                  <img src="images/product-6.webp" alt="" />
+                  <span>New</span>
+                  <button class="new-product-cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>Buy Now
+                  </button>
+                </a>
+                <!-- text -->
+                <div class="new-product-text">
+                  <a href="#" class="new-product-title">Ring For Women</a>
+                  <span>$25.00</span>
+                </div>
+              </div>
+              <!-- box-end -->
+            </div>
+            <!-- slide end -->
+            <!-- slide6 -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="new-product-box">
+                <!-- img -->
+                <a href="cart.html" class="new-product-img">
+                  <img src="images/product-5.webp" alt="" />
+                  <span>New</span>
+                  <button class="new-product-cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>Buy Now
+                  </button>
+                </a>
+                <!-- text -->
+                <div class="new-product-text">
+                  <a href="#" class="new-product-title">Ring For Women</a>
+                  <span>$25.00</span>
+                </div>
+              </div>
+              <!-- box-end -->
+            </div>
+            <!-- slide end -->
+            <!-- slide7 -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="new-product-box">
+                <!-- img -->
+                <a href="cart.html" class="new-product-img">
+                  <img src="images/product-7.webp" alt="" />
+                  <span>New</span>
+                  <button class="new-product-cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>Buy Now
+                  </button>
+                </a>
+                <!-- text -->
+                <div class="new-product-text">
+                  <a href="#" class="new-product-title">Ring For Women</a>
+                  <span>$25.00</span>
+                </div>
+              </div>
+              <!-- box-end -->
+            </div>
+            <!-- slide end -->
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORY -->
+    <section id="category">
+      <div class="category-container">
+        <!-- *******box******* -->
+        <a href="#new-product1" class="category-box">
+          <img src="images/img1-middle.webp" alt="category" />
+          <strong>Ring</strong>
+        </a>
+
+        <!-- *******box******* -->
+        <a href="#new-product1" class="category-box">
+          <img src="images/img2-middle.webp" alt="category" />
+          <strong>Earrings</strong>
+        </a>
+
+        <!-- *******box******* -->
+        <a href="#new-product1" class="category-box">
+          <img src="images/img3-middle.webp" alt="category" />
+          <strong>Necklakes</strong>
+        </a>
+
+        <!-- *******box******* -->
+        <a href="#new-product1" class="category-box">
+          <img src="images/img4-middle.webp" alt="category" />
+          <strong>Bracelets</strong>
+        </a>
+      </div>
+    </section>
+
+    <!-- ********Feature-Product************ -->
+    <section id="new-product1">
+      <!-- heading -->
+      <div class="new-product-heading">
+        <h2>Feature Products</h2>
+        <p>Add our feature products to weekly lineup</p>
+      </div>
+      <div class="feature-product-container">
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-8.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Blue Fake Nail's For Women</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-10.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-11.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-12.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-9.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Shiny Red Nail Polish</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-13.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-14.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-16.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-15.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+        <!-- box -->
+        <div class="new-product-box">
+          <!-- img -->
+          <a href="cart.html" class="new-product-img">
+            <img src="images/product-17.webp" alt="" />
+            <span>New</span>
+            <button class="new-product-cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>Buy Now
+            </button>
+          </a>
+          <!-- text -->
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Set of Bridel Eye Lashies</a>
+            <span>$25.00</span>
+          </div>
+        </div>
+        <!-- box-end -->
+      </div>
+    </section>
+    <!-- ---------------Testimonials------------------ -->
+    <section id="clients">
+      <!-- heading -->
+      <div class="client-heading">
+        <h3>Testimonials</h3>
+        <p>What they say</p>
+      </div>
+      <!--  Container -->
+      <div class="client-box-container">
+        <!-- Swiper -->
+        <div class="swiper mySwiperTestimonials">
+          <div class="swiper-wrapper">
+            <!-- slide -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="client-box">
+                <div class="client-profile">
+                  <img src="images/t1.jpg" alt="client" />
+                  <div class="profile-text">
+                    <strong>Jeni Jacki</strong>
+                    <span>Client</span>
+                  </div>
+                </div>
+                <!-- rating -->
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- comment -->
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci id commodi vel corrupti voluptas odit itaque?
+                  Repudiandae repellat eligendi quisquam. Nam adipisci nobis,
+                  mollitia debitis natus molestias commodi ut ad.
+                </p>
+              </div>
+              <!-- box-end -->
+            </div>
+
+            <!-- slide -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="client-box">
+                <div class="client-profile">
+                  <img src="images/t1.jpg" alt="client" />
+                  <div class="profile-text">
+                    <strong>Jeni Jacki</strong>
+                    <span>Client</span>
+                  </div>
+                </div>
+                <!-- rating -->
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- comment -->
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci id commodi vel corrupti voluptas odit itaque?
+                  Repudiandae repellat eligendi quisquam. Nam adipisci nobis,
+                  mollitia debitis natus molestias commodi ut ad.
+                </p>
+              </div>
+              <!-- box-end -->
+            </div>
+
+            <!-- slide -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="client-box">
+                <div class="client-profile">
+                  <img src="images/t1.jpg" alt="client" />
+                  <div class="profile-text">
+                    <strong>Jeni Jacki</strong>
+                    <span>Client</span>
+                  </div>
+                </div>
+                <!-- rating -->
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- comment -->
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci id commodi vel corrupti voluptas odit itaque?
+                  Repudiandae repellat eligendi quisquam. Nam adipisci nobis,
+                  mollitia debitis natus molestias commodi ut ad.
+                </p>
+              </div>
+              <!-- box-end -->
+            </div>
+
+            <!-- slide -->
+            <div class="swiper-slide">
+              <!-- box -->
+              <div class="client-box">
+                <div class="client-profile">
+                  <img src="images/t1.jpg" alt="client" />
+                  <div class="profile-text">
+                    <strong>Jeni Jacki</strong>
+                    <span>Client</span>
+                  </div>
+                </div>
+                <!-- rating -->
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- comment -->
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci id commodi vel corrupti voluptas odit itaque?
+                  Repudiandae repellat eligendi quisquam. Nam adipisci nobis,
+                  mollitia debitis natus molestias commodi ut ad.
+                </p>
+              </div>
+              <!-- box-end -->
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------Blog -->
+    <section id="blog">
+      <!-- heafing -->
+      <div class="blog-heading">
+        <h3>Latest Blogs</h3>
+        <span>There are latest blog posts</span>
+      </div>
+
+      <div class="blog-container">
+        <!-- box -->
+        <div class="blog-box">
+          <!-- img   -->
+          <div class="blog-img">
+            <img src="images/blog-img1.webp" alt="blog" />
+          </div>
+          <!-- tetx -->
+          <div class="blog-text">
+            <span>18 Nov 2024 / Jewelry</span>
+            <a href="#blog " class="blog-title"
+              >Best Family Jewelry Collection</a
+            >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              sapiente dolorum facere illum rem mollitia odit adipisci, vel,
+              reiciendis fugiat totam voluptas magni quaerat quasi. Qui ullam
+              doloremque illum repellendus.
+            </p>
+            <a href="blog.html">Read More</a>
+          </div>
+        </div>
+        <div class="blog-box">
+          <!-- img   -->
+          <div class="blog-img">
+            <img src="images/blog-img2.webp" alt="blog" />
+          </div>
+          <!-- tetx -->
+          <div class="blog-text">
+            <span>17 Nov 2024 / Jewelry</span>
+            <a href="#blog " class="blog-title"
+              >Best Family Jewelry Collection</a
+            >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate corrupti vero cum vel exercitationem amet incidunt
+              ducimus nostrum, minus, praesentium, atque temporibus facilis
+              laborum animi labore ipsa repudiandae dolor optio.
+            </p>
+            <a href="blog.html">Read More</a>
+          </div>
+        </div>
+        <div class="blog-box">
+          <!-- img   -->
+          <div class="blog-img">
+            <img src="images/blog-img3.webp" alt="blog" />
+          </div>
+          <!-- tetx -->
+          <div class="blog-text">
+            <span>15 Nov 2024 / Jewelry</span>
+            <a href="#blog" class="blog-title"
+              >Best Family Jewelry Collection</a
+            >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              excepturi esse earum odio quod quae ut, impedit corporis? Ducimus
+              quam numquam adipisci, architecto consectetur quibusdam quasi
+              cupiditate veniam nisi qui..
+            </p>
+            <a href="blog.html">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <!-- company-box -->
+        <div class="footer-company-box">
+          <a href="#" class="logo">
+            <img src="images/logo_loya.jpg" alt="logo" />
+          </a>
+          <!-- details -->
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <!-- social -->
+          <div class="footer-social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100053275697493&mibextid=ZbWKwL"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <!-- link box -->
+        <div class="footer-link-box">
+          <strong>Main Link's</strong>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-box">
+          <strong>External Link's</strong>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="footer-link-box">
+          <strong>External Link's</strong>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bottom -->
+    <div class="footer-bottom">
+      <span class="footer-owner">Made by NamNTBH00888</span>
+      <span class="copyright">&#169; Copyright 2024 - NguyenTruongNam</span>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      // ------------Product
+      var swiper = new Swiper(".mySwiperMyproduct", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          // after 640px slidesPerview 1,
+          640: {
+            /* after 768px this will apply */ slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          740: {
+            /* after 1000px this will apply */ slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1000: {
+            /* after 122px this will apply */ slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          1224: {
+            /*  this is code apply before 1024px screen width */
+            slidesPerView: 5 /* product per slide*/,
+            spaceBetween: 20 /*gape*/,
+          },
+        },
+      });
+      // -------------testimonials
+      var swiper = new Swiper(".mySwiperTestimonials", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      // fix header
+      window.addEventListener("scroll", function () {
+        var header = document.getElementById("header");
+        if (window.scrollY > 0) {
+          header.classList.add("header-fix");
+        } else {
+          header.classList.remove("header-fix");
+        }
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
